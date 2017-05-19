@@ -6,9 +6,9 @@ class LMHD::Hello
 
 	def hi
 		case @language
-		when :dood
+		when "dood"
 			"'sup doods"
-		when :groot
+		when "groot"
 			"I AM GROOT"
 		else
 			"Hello World"

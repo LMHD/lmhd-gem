@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'lmhd'
+puts LMHD.hi(ARGV[0])

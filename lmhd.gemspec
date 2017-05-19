@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
 	s.email       = 'lucy@lucymhdavies.com'
 	s.files       = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
 	s.require_path = 'lib'
+	s.executables << 'lmhd'
 	s.homepage    =
 		'http://rubygems.org/gems/lmhd'
 	s.license       = 'MIT'
