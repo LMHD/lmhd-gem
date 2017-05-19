@@ -4,6 +4,9 @@ machine:
 compile:
   override:
     - make build
+test:
+  override:
+    - true
 deployment:
   rubygems:
     branch: master
