@@ -1,6 +1,7 @@
 
+# Hello World
 class LMHD::Hello
-	def initialize(lang)
+	def initialize(lang=nil)
 		@language = lang
 	end
 

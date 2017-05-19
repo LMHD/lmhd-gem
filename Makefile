@@ -20,3 +20,7 @@ push:
 	# Tag in Git
 	git tag ${VERSION}
 	git push origin ${VERSION}
+
+.PHONY: clean
+clean:
+	rm *.gem
