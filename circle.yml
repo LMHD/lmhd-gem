@@ -1,0 +1,11 @@
+machine:
+	ruby:
+		version: 2.4.0
+compile:
+	override:
+		- make build
+deployment:
+	rubygems:
+		branch: master
+		commands:
+			- make push
