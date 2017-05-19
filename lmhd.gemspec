@@ -6,7 +6,8 @@ Gem::Specification.new do |s|
 	s.description = "A simple hello world gem"
 	s.authors     = ["Lucy Davies"]
 	s.email       = 'lucy@lucymhdavies.com'
-	s.files       = ["lib/lmhd.rb"]
+	s.files       = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
+	s.require_path = 'lib'
 	s.homepage    =
 		'http://rubygems.org/gems/lmhd'
 	s.license       = 'MIT'
