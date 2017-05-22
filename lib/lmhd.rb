@@ -1,3 +1,4 @@
+
 # The main LMHD class
 class LMHD
 	# Say hi!
@@ -10,7 +11,7 @@ class LMHD
 	#   language: (String)
 
 	def self.hi(language=nil)
-		hello = Hello.new( language )
+		hello = Util::Hello.new( language )
 		hello.hi
 	end
 end
